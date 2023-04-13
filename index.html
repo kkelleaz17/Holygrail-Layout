@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    body{
+        background: linear-gradient(to right,#7ebae2,#4d77aa);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .Holder{
+         background-color: white;
+         width: 90%;
+         height: 90%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .MainHolder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 80%;
+        width: 100%;
+    }
+    #Header,#Footer{
+       width: 100%;
+       height: 10%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border:black .2px solid
+     }
+    #Nav, #Aside{
+        width: 20%;
+        border:black .2px solid;
+        height: 100%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    #Main{
+        width: 80%;
+        border:black .2px solid;
+        height: 100%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+</style>
+<body>
+    <div class="Holder">
+      <div id="Header">Header</div>
+
+     <div class="MainHolder">
+      <div id="Nav">Nav</div>
+      <div id="Main">Main</div>
+      <div id="Aside">Aside</div>
+     </div>
+
+      <div id="Footer">Footer</div>
+    </div>
+</body>
+</html>
